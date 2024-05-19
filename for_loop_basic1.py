@@ -19,7 +19,6 @@ for count in range (1,101):
         print("Coding Dojo")
     elif count % 5 == 0:
         print("Coding")
-    else: print(count)
 
 
 # Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
@@ -40,6 +39,6 @@ lowNum = 7
 highNum = 50
 mult = 4
 
-for num in range (7,50):
+for num in range (lowNum,highNum):
     if num % mult == 0:
         print(num)
